@@ -5,7 +5,6 @@ import Slider from 'react-slick';
 import './styles/banner.scss';
 import '../../styles/grid.scss';
 
-
 export const Banner = () => {
   const settings = {
     dots: true,
