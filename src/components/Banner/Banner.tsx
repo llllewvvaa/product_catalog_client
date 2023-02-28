@@ -42,28 +42,42 @@ export const Banner = () => {
         >
           Welcome to Nice Gadgets store!
         </h1>
-
         <Slider
           className="grid--responsive--tablet--2-11 grid--responsive--desktop--2-23"
           {...settings}
         >
-          <img
+          <a
+            href="#"
             className="banner__image"
-            src="src/images/banner.jpg"
-            alt="Banner"
-          />
+          >
+            <img
+              src="src/images/banner.jpg"
+              useMap={'#basket'}
+              alt="Banner"
+            />
+          </a>
 
-          <img
+          <a
+            href="#"
             className="banner__image"
-            src="src/images/banner.jpg"
-            alt="Banner"
-          />
+          >
+            <img
+              src="src/images/banner.jpg"
+              useMap={'#basket'}
+              alt="Banner"
+            />
+          </a>
 
-          <img
+          <a
+            href="#"
             className="banner__image"
-            src="src/images/banner.jpg"
-            alt="Banner"
-          />
+          >
+            <img
+              src="src/images/banner.jpg"
+              useMap={'#basket'}
+              alt="Banner"
+            />
+          </a>
         </Slider>
       </div>
     </section>

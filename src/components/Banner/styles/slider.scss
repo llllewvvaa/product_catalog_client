@@ -38,7 +38,7 @@
     }
 
     &-prev {
-      left: -39px;
+      left: -46px;
       position: absolute;
       z-index: 1;
 
@@ -52,10 +52,14 @@
         background-position: center;
         background-size: contain;
       }
+
+      @include ForDesktop {
+        left: -45px;
+      }
     }
 
     &-next {
-      right: -39px;
+      right: -46px;
 
       &::before {
         content: '';
@@ -66,6 +70,10 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
+      }
+
+      @include ForDesktop {
+        right: -45px;
       }
     }
   }
